@@ -11,209 +11,45 @@
   <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class='nav-item nav-link' href='#mnist'>mnist</a>
-            <a class='nav-item nav-link' href='#mnist_784x256x64x32x10_SGD_LR1_reg0'>mnist_784x256x64x32x10_SGD_LR1_reg0</a>
-            <a class='nav-item nav-link' href='#mnist_784x32x32x32x10_SGD_LR1_reg0'>mnist_784x32x32x32x10_SGD_LR1_reg0</a>
-            <a class='nav-item nav-link' href='#mnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0'>mnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0</a>
-            <a class='nav-item nav-link' href='#mnist_784x512x10_SGD_LR1_reg0'>mnist_784x512x10_SGD_LR1_reg0</a>
-            <a class='nav-item nav-link' href='#mnist_784x64x10_SGD_LR1_reg0'>mnist_784x64x10_SGD_LR1_reg0</a>
-            <a class='nav-item nav-link' href='#test'>test</a>
-            <a class='nav-item nav-link' href='#mnist_grok'>mnist_grok</a>
-            <a class='nav-item nav-link' href='#mnist_grok_784x256x64x32x10_SGD_LR1_reg0'>mnist_grok_784x256x64x32x10_SGD_LR1_reg0</a>
-            <a class='nav-item nav-link' href='#modular_addition'>modular_addition</a>
+            <a class='nav-item nav-link' href='#merged_layers'>merged_layers</a>
+            <a class='nav-item nav-link' href='#per_layer'>per_layer</a>
         </nav>
     </header>
      <main>
-        <h1>Eigenvalues of Gram Matrix</h1>
+        <h1>Experiment Plots</h1>
         <div id="accordion">
             <div class='card'>
-                <div class='card-header' id='headingmnist'>
+                <div class='card-header' id='headingmerged_layers'>
                     <h5 class='mb-0'>
-                        <button class='btn btn-link' data-toggle='collapse' data-target='#collapsemnist' aria-expanded='true' aria-controls='collapsemnist'>
-                            mnist
+                        <button class='btn btn-link' data-toggle='collapse' data-target='#collapsemerged_layers' aria-expanded='true' aria-controls='collapsemerged_layers'>
+                            merged_layers
                         </button>
                     </h5>
                 </div>
-                <div id='collapsemnist' class='collapse' aria-labelledby='headingmnist' data-parent='#accordion'>
+                <div id='collapsemerged_layers' class='collapse' aria-labelledby='headingmerged_layers' data-parent='#accordion'>
                     <ul class='list-group list-group-flush'>
+                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/modular_addition\merged_layers\edges\edges_index.html'>edges</a></li>
+                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/modular_addition\merged_layers\eigenvalues\eigenvalues_index.html'>eigenvalues</a></li>
                     </ul>
                 </div>
             </div>
             <div class='card'>
-                <div class='card-header' id='headingmnist_784x256x64x32x10_SGD_LR1_reg0'>
+                <div class='card-header' id='headingper_layer'>
                     <h5 class='mb-0'>
-                        <button class='btn btn-link' data-toggle='collapse' data-target='#collapsemnist_784x256x64x32x10_SGD_LR1_reg0' aria-expanded='true' aria-controls='collapsemnist_784x256x64x32x10_SGD_LR1_reg0'>
-                            mnist_784x256x64x32x10_SGD_LR1_reg0
+                        <button class='btn btn-link' data-toggle='collapse' data-target='#collapseper_layer' aria-expanded='true' aria-controls='collapseper_layer'>
+                            per_layer
                         </button>
                     </h5>
                 </div>
-                <div id='collapsemnist_784x256x64x32x10_SGD_LR1_reg0' class='collapse' aria-labelledby='headingmnist_784x256x64x32x10_SGD_LR1_reg0' data-parent='#accordion'>
+                <div id='collapseper_layer' class='collapse' aria-labelledby='headingper_layer' data-parent='#accordion'>
                     <ul class='list-group list-group-flush'>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x256x64x32x10_SGD_LR1_reg0\000\index.html'>000</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x256x64x32x10_SGD_LR1_reg0\001\index.html'>001</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x256x64x32x10_SGD_LR1_reg0\002\index.html'>002</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x256x64x32x10_SGD_LR1_reg0\003\index.html'>003</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x256x64x32x10_SGD_LR1_reg0\004\index.html'>004</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x256x64x32x10_SGD_LR1_reg0\005\index.html'>005</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x256x64x32x10_SGD_LR1_reg0\006\index.html'>006</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x256x64x32x10_SGD_LR1_reg0\007\index.html'>007</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x256x64x32x10_SGD_LR1_reg0\008\index.html'>008</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x256x64x32x10_SGD_LR1_reg0\009\index.html'>009</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class='card'>
-                <div class='card-header' id='headingmnist_784x32x32x32x10_SGD_LR1_reg0'>
-                    <h5 class='mb-0'>
-                        <button class='btn btn-link' data-toggle='collapse' data-target='#collapsemnist_784x32x32x32x10_SGD_LR1_reg0' aria-expanded='true' aria-controls='collapsemnist_784x32x32x32x10_SGD_LR1_reg0'>
-                            mnist_784x32x32x32x10_SGD_LR1_reg0
-                        </button>
-                    </h5>
-                </div>
-                <div id='collapsemnist_784x32x32x32x10_SGD_LR1_reg0' class='collapse' aria-labelledby='headingmnist_784x32x32x32x10_SGD_LR1_reg0' data-parent='#accordion'>
-                    <ul class='list-group list-group-flush'>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x10_SGD_LR1_reg0\000\index.html'>000</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x10_SGD_LR1_reg0\001\index.html'>001</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x10_SGD_LR1_reg0\002\index.html'>002</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x10_SGD_LR1_reg0\003\index.html'>003</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x10_SGD_LR1_reg0\004\index.html'>004</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x10_SGD_LR1_reg0\005\index.html'>005</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x10_SGD_LR1_reg0\006\index.html'>006</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x10_SGD_LR1_reg0\007\index.html'>007</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x10_SGD_LR1_reg0\008\index.html'>008</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x10_SGD_LR1_reg0\009\index.html'>009</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class='card'>
-                <div class='card-header' id='headingmnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0'>
-                    <h5 class='mb-0'>
-                        <button class='btn btn-link' data-toggle='collapse' data-target='#collapsemnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0' aria-expanded='true' aria-controls='collapsemnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0'>
-                            mnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0
-                        </button>
-                    </h5>
-                </div>
-                <div id='collapsemnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0' class='collapse' aria-labelledby='headingmnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0' data-parent='#accordion'>
-                    <ul class='list-group list-group-flush'>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0\000\index.html'>000</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0\001\index.html'>001</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0\002\index.html'>002</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0\003\index.html'>003</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0\004\index.html'>004</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0\005\index.html'>005</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0\006\index.html'>006</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0\007\index.html'>007</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0\008\index.html'>008</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x32x32x32x32x32x32x10_SGD_LR1_reg0\009\index.html'>009</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class='card'>
-                <div class='card-header' id='headingmnist_784x512x10_SGD_LR1_reg0'>
-                    <h5 class='mb-0'>
-                        <button class='btn btn-link' data-toggle='collapse' data-target='#collapsemnist_784x512x10_SGD_LR1_reg0' aria-expanded='true' aria-controls='collapsemnist_784x512x10_SGD_LR1_reg0'>
-                            mnist_784x512x10_SGD_LR1_reg0
-                        </button>
-                    </h5>
-                </div>
-                <div id='collapsemnist_784x512x10_SGD_LR1_reg0' class='collapse' aria-labelledby='headingmnist_784x512x10_SGD_LR1_reg0' data-parent='#accordion'>
-                    <ul class='list-group list-group-flush'>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x512x10_SGD_LR1_reg0\000\index.html'>000</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x512x10_SGD_LR1_reg0\001\index.html'>001</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x512x10_SGD_LR1_reg0\002\index.html'>002</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x512x10_SGD_LR1_reg0\003\index.html'>003</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x512x10_SGD_LR1_reg0\004\index.html'>004</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x512x10_SGD_LR1_reg0\005\index.html'>005</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x512x10_SGD_LR1_reg0\006\index.html'>006</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x512x10_SGD_LR1_reg0\007\index.html'>007</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x512x10_SGD_LR1_reg0\008\index.html'>008</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x512x10_SGD_LR1_reg0\009\index.html'>009</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class='card'>
-                <div class='card-header' id='headingmnist_784x64x10_SGD_LR1_reg0'>
-                    <h5 class='mb-0'>
-                        <button class='btn btn-link' data-toggle='collapse' data-target='#collapsemnist_784x64x10_SGD_LR1_reg0' aria-expanded='true' aria-controls='collapsemnist_784x64x10_SGD_LR1_reg0'>
-                            mnist_784x64x10_SGD_LR1_reg0
-                        </button>
-                    </h5>
-                </div>
-                <div id='collapsemnist_784x64x10_SGD_LR1_reg0' class='collapse' aria-labelledby='headingmnist_784x64x10_SGD_LR1_reg0' data-parent='#accordion'>
-                    <ul class='list-group list-group-flush'>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x64x10_SGD_LR1_reg0\000\index.html'>000</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x64x10_SGD_LR1_reg0\001\index.html'>001</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x64x10_SGD_LR1_reg0\002\index.html'>002</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x64x10_SGD_LR1_reg0\003\index.html'>003</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x64x10_SGD_LR1_reg0\004\index.html'>004</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x64x10_SGD_LR1_reg0\005\index.html'>005</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x64x10_SGD_LR1_reg0\006\index.html'>006</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x64x10_SGD_LR1_reg0\007\index.html'>007</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x64x10_SGD_LR1_reg0\008\index.html'>008</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\mnist_784x64x10_SGD_LR1_reg0\009\index.html'>009</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class='card'>
-                <div class='card-header' id='headingtest'>
-                    <h5 class='mb-0'>
-                        <button class='btn btn-link' data-toggle='collapse' data-target='#collapsetest' aria-expanded='true' aria-controls='collapsetest'>
-                            test
-                        </button>
-                    </h5>
-                </div>
-                <div id='collapsetest' class='collapse' aria-labelledby='headingtest' data-parent='#accordion'>
-                    <ul class='list-group list-group-flush'>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\test\000\index.html'>000</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\test\001\index.html'>001</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\test\002\index.html'>002</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist\test\003\index.html'>003</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class='card'>
-                <div class='card-header' id='headingmnist_grok'>
-                    <h5 class='mb-0'>
-                        <button class='btn btn-link' data-toggle='collapse' data-target='#collapsemnist_grok' aria-expanded='true' aria-controls='collapsemnist_grok'>
-                            mnist_grok
-                        </button>
-                    </h5>
-                </div>
-                <div id='collapsemnist_grok' class='collapse' aria-labelledby='headingmnist_grok' data-parent='#accordion'>
-                    <ul class='list-group list-group-flush'>
-                    </ul>
-                </div>
-            </div>
-            <div class='card'>
-                <div class='card-header' id='headingmnist_grok_784x256x64x32x10_SGD_LR1_reg0'>
-                    <h5 class='mb-0'>
-                        <button class='btn btn-link' data-toggle='collapse' data-target='#collapsemnist_grok_784x256x64x32x10_SGD_LR1_reg0' aria-expanded='true' aria-controls='collapsemnist_grok_784x256x64x32x10_SGD_LR1_reg0'>
-                            mnist_grok_784x256x64x32x10_SGD_LR1_reg0
-                        </button>
-                    </h5>
-                </div>
-                <div id='collapsemnist_grok_784x256x64x32x10_SGD_LR1_reg0' class='collapse' aria-labelledby='headingmnist_grok_784x256x64x32x10_SGD_LR1_reg0' data-parent='#accordion'>
-                    <ul class='list-group list-group-flush'>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist_grok\mnist_grok_784x256x64x32x10_SGD_LR1_reg0\000\index.html'>000</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist_grok\mnist_grok_784x256x64x32x10_SGD_LR1_reg0\001\index.html'>001</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist_grok\mnist_grok_784x256x64x32x10_SGD_LR1_reg0\002\index.html'>002</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist_grok\mnist_grok_784x256x64x32x10_SGD_LR1_reg0\003\index.html'>003</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\mnist_grok\mnist_grok_784x256x64x32x10_SGD_LR1_reg0\004\index.html'>004</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class='card'>
-                <div class='card-header' id='headingmodular_addition'>
-                    <h5 class='mb-0'>
-                        <button class='btn btn-link' data-toggle='collapse' data-target='#collapsemodular_addition' aria-expanded='true' aria-controls='collapsemodular_addition'>
-                            modular_addition
-                        </button>
-                    </h5>
-                </div>
-                <div id='collapsemodular_addition' class='collapse' aria-labelledby='headingmodular_addition' data-parent='#accordion'>
-                    <ul class='list-group list-group-flush'>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\modular_addition\histogram\index.html'>histogram</a></li>
-                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/gram_eigens\modular_addition\loss\index.html'>loss</a></li>
+                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/modular_addition\per_layer\0_input\0_embed.hook_input_index.html'>0_input</a></li>
+                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/modular_addition\per_layer\1_resid_pre\1_blocks.0.hook_resid_pre_index.html'>1_resid_pre</a></li>
+                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/modular_addition\per_layer\2_vprime_concat\2_blocks.0.attn.hook_vprime_concat_index.html'>2_vprime_concat</a></li>
+                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/modular_addition\per_layer\3_resid_mid\3_blocks.0.hook_resid_mid_index.html'>3_resid_mid</a></li>
+                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/modular_addition\per_layer\4_hidden\4_blocks.0.mlp.hook_hidden_index.html'>4_hidden</a></li>
+                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/modular_addition\per_layer\5_resid_post\5_blocks.0.hook_resid_post_index.html'>5_resid_post</a></li>
+                        <li class='list-group-item'><a href='https://averyzgriffin.github.io/modular_addition\per_layer\6_unembed\6_hook_unembed_post_index.html'>6_unembed</a></li>
                     </ul>
                 </div>
             </div>
